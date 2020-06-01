@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: url(../bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.title p{
+    color: #fff;
+    font-size: 25px;
+}
+
+.contact img{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+.insta img{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+
+.twitter img{
+    position: absolute;
+    top: 90%;
+    left: 15%;
+}
+
+.copyright p{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+.title1 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #fff; 
+    line-height: 17.5em;
+    margin: 10px 0 20px; 
+ } 
+
+ .ptag {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
